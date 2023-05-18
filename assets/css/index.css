@@ -1,0 +1,60 @@
+/* Estilos da página index.html*/
+.justify {
+    text-align: justify;
+    justify-content: center;
+    margin: auto;
+}
+
+.center {
+    text-align:center;
+    justify-content: center;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    height: 5px;
+    flex-flow: row;
+    justify-content: center;
+    align-items:first baseline;
+    margin:auto ;
+}
+
+#menu li {
+    display: inline;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: blue
+}
+
+#menu li a:hover {
+    color: blanchedalmond
+}
+
+.p-30{
+    padding: 30px;
+}
+
+.br-50{
+    border-radius: 50%;
+}
+.wh{
+    width: 300px;
+    height: 300px;
+}
+
+.tm-social{
+    width: 30px;
+    height: 30px;
+
+}
+
+
+
+
+
