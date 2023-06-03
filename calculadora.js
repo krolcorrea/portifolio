@@ -1,6 +1,4 @@
-
 function criarCalculadora() {
-    
     var resultadoInput = document.getElementById("resultado");
     var numeroAtual = "";
     var operadorAtual = "";
@@ -43,10 +41,16 @@ function criarCalculadora() {
     }
 
     function adicionarDecimal() {
-        if (!numeroAtual.includes(".")) {
+        if (numeroAtual.indexOf(".") === -1) {
             numeroAtual += ".";
             resultadoInput.value = numeroAtual;
         }
     }
+
+    window.adicionarNumero = adicionarNumero;
+    window.adicionarOperador = adicionarOperador;
+    window.calcular = calcular;
+    window.adicionarDecimal = adicionarDecimal;
 }
-criarCalculadora()
+
+criarCalculadora();
